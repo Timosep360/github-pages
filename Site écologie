@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Écologie et Avenir</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #e8f5e9;
+      color: #2e7d32;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #66bb6a;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    main {
+      padding: 2em;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1em 0;
+      border-radius: 10px;
+    }
+    form {
+      background-color: #ffffff;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #66bb6a;
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      background-color: #a5d6a7;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Protégeons notre planète</h1>
+    <p>Agissons ensemble pour un futur durable</p>
+  </header>
+  <main>
+    <section>
+      <h2>Pourquoi l'écologie est importante ?</h2>
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Forêt verdoyante">
+      <p>Préserver la biodiversité, lutter contre le changement climatique et assurer un avenir sain pour les générations futures.</p>
+    </section>
+    <section>
+      <h2>Actions simples au quotidien</h2>
+      <img src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c" alt="Recyclage des déchets">
+      <ul>
+        <li>Réduire sa consommation d'énergie</li>
+        <li>Privilégier les transports en commun</li>
+        <li>Recycler et composter ses déchets</li>
+        <li>Consommer local et de saison</li>
+      </ul>
+    </section>
+    <section>
+      <h2>En savoir plus</h2>
+      <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9" alt="Engagement pour l'écologie">
+      <p>Rejoignez des associations locales, participez à des événements verts, ou visitez des sites comme <a href="https://www.ademe.fr" target="_blank">ADEME</a> pour apprendre davantage.</p>
+    </section>
+    <section>
+      <h2>Contactez-nous</h2>
+      <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 - Écologie et Avenir</p>
+  </footer>
+</body>
+</html>
